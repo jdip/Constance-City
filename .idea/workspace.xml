@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f050d479-9c3b-4c2d-bac8-6b0f46a9d2ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/_config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/_data/navigation.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/_includes/navigation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/_sass/main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/about.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/css/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/_gangs/lemon-stealing-whores.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_layouts/default.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

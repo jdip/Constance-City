@@ -3,3 +3,15 @@ layout: default
 title: Home
 ---
 <h1>{{ "Hello World!" | downcase }}</h1>
+
+<h1>Gangs</h1>
+
+<ul>
+    {% for gang in site.gangs %}
+    <li>
+        <h2>{{ gang.name }}</h2>
+        <h3>{{ gang.position }}</h3>
+        <p>{{ gang.content | markdownify }}</p>
+    </li>
+    {% endfor %}
+</ul>
