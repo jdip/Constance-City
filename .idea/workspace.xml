@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f050d479-9c3b-4c2d-bac8-6b0f46a9d2ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/css/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/index.markdown" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
