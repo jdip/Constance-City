@@ -2,19 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f050d479-9c3b-4c2d-bac8-6b0f46a9d2ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Vagrantfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/_layouts/default.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/_config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/_data/navigation.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/_includes/navigation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/_sass/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/about.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/css/styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-11-30-welcome-to-jekyll.markdown" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.markdown" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_layouts/default.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
