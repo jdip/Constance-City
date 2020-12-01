@@ -1,6 +1,43 @@
 ---
 layout: default
 ---
+<h1>Regions</h1>
+<ul>
+    {% assign regions = site.locations | where: "type", "region" %}
+    {% for region in regions %}
+    <li>
+        <h2>
+            <a href="{{ region.url }}"> {{ region.name }}</a>
+        </h2>
+    </li>
+    {% endfor %}
+</ul>
+
+
+<h1>Municipalities</h1>
+<ul>
+    {% assign municipalities = site.locations | where: "type", "municipality" %}
+    {% for municipality in municipalities %}
+    <li>
+        <h2>
+            <a href="{{ municipality.url }}"> {{ municipality.name }}</a>
+        </h2>
+    </li>
+    {% endfor %}
+</ul>
+
+<h1>Buildings</h1>
+<ul>
+    {% assign buildings = site.locations | where: "type", "building" %}
+    {% for building in buildings %}
+    <li>
+        <h2>
+            <a href="{{ building.url }}"> {{ building.name }}</a>
+        </h2>
+    </li>
+    {% endfor %}
+</ul>
+
 <h1>Corps</h1>
 <ul>
     {% assign corps = site.organizations | where: "type", "corp" %}
@@ -40,14 +77,3 @@ layout: default
     {% endfor %}
 </ul>
 
-<h1>Municipalities</h1>
-<ul>
-    {% assign municipalities = site.locations | where: "type", "municipality" %}
-    {% for municipality in municipalities %}
-    <li>
-        <h2>
-            <a href="{{ municipality.url }}"> {{ municipality.name }}</a>
-        </h2>
-    </li>
-    {% endfor %}
-</ul>
