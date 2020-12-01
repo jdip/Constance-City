@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<ul>
+    {% assign gangs = site.organizations | where: "type", "gang" %}
+    {% for gang in gangs %}
+    <li>
+        <img src="/assets/img/{{ gang.logo_url }}" alt="{{ gang.name }} logo" width="50">
+        <h2>{{ gang.name }}</h2>
+    </li>
+    {% endfor %}
+</ul>
