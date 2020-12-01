@@ -34,20 +34,31 @@ url: "https://jdip.github.io" # the base hostname & protocol for your site, e.g.
 twitter_username: buckeymonkey
 github_username:  jdip
 
+
+collections:
+  organizations:
+    output: true
+    permalink: /:collection/:path/
+  locations:
+    output: true
+    permalink: /:collection/:path/
+
+
 defaults:
   - scope:
       path: "assets/img"
     values:
       image: true
-
-collections_dir: _collections
-collections:
-  organizations:
-    type: true
-    name: true
-    abbreviation: true
-    logo_url: true
-
+  - scope:
+      path: _locations
+      type: locations
+    values:
+      layout: location
+  - scope:
+      path: _organizations
+      type: organizations
+    values:
+      layout: organization
 
 # Exclude from processing.
 # The following items will not be processed, by default.

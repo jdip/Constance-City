@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<article>
+    <h1>{{ page.name }}</h1>
+    {{ content }}
+
+    {% if page.type == 'municipality' %}
+    <h2>Notable Buildings</h2>
+    <ul>
+        {% assign buildings = site.locations | where: "type", "building" | where: "municipality", page.name %}
+        {% for building in buildings %}
+        <li>
+            <a href="{{ building.url }}"> {{ building.name }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+</article>

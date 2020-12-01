@@ -1,14 +1,53 @@
 ---
 layout: default
 ---
+<h1>Corps</h1>
+<ul>
+    {% assign corps = site.organizations | where: "type", "corp" %}
+    {% for corp in corps %}
+    <li>
+        <img src="{{ corp.logo_url | relative_url }}" alt="{{ corp.name }} logo" width="50">
+        <h2>
+            <a href="{{ corp.url }}"> {{ corp.name }}</a>
+        </h2>
+    </li>
+    {% endfor %}
+</ul>
 
+<h1>Gangs</h1>
 <ul>
     {% assign gangs = site.organizations | where: "type", "gang" %}
     {% for gang in gangs %}
     <li>
         <img src="{{ gang.logo_url | relative_url }}" alt="{{ gang.name }} logo" width="50">
-        <h2>{{ gang.name }}</h2>
-        <p>{{ gang.content | markdownify }}</p>
+        <h2>
+            <a href="{{ gang.url }}"> {{ gang.name }}</a>
+        </h2>
+    </li>
+    {% endfor %}
+</ul>
+
+<h1>Crews</h1>
+<ul>
+    {% assign crews = site.organizations | where: "type", "crew" %}
+    {% for crew in crews %}
+    <li>
+        <img src="{{ crew.logo_url | relative_url }}" alt="{{ crew.name }} logo" width="50">
+        <h2>
+            <a href="{{ crew.url }}"> {{ crew.name }}</a>
+        </h2>
+    </li>
+    {% endfor %}
+</ul>
+
+<h1>Municipalities</h1>
+<ul>
+    {% assign municipalities = site.locations | where: "type", "municipality" %}
+    {% for municipality in municipalities %}
+    <li>
+        <h2>
+            <a href="{{ municipality.url }}"> {{ municipality.name }}</a>
+        </h2>
     </li>
     {% endfor %}
 </ul>
