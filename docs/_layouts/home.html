@@ -8,7 +8,7 @@ layout: default
     {% for region in regions %}
     <li>
         <h2>
-            <a href="{{ region.url }}"> {{ region.name }}</a>
+            <a href="{{ region.url | relative_url }}"> {{ region.name }}</a>
         </h2>
     </li>
     {% endfor %}
@@ -21,7 +21,7 @@ layout: default
     {% for municipality in municipalities %}
     <li>
         <h2>
-            <a href="{{ municipality.url }}"> {{ municipality.name }}</a>
+            <a href="{{ municipality.url | relative_url }}"> {{ municipality.name }}</a>
         </h2>
     </li>
     {% endfor %}
@@ -33,7 +33,7 @@ layout: default
     {% for building in buildings %}
     <li>
         <h2>
-            <a href="{{ building.url }}"> {{ building.name }}</a>
+            <a href="{{ building.url | relative_url }}"> {{ building.name }}</a>
         </h2>
     </li>
     {% endfor %}
@@ -46,7 +46,7 @@ layout: default
     <li>
         <img src="{{ corp.logo_url | relative_url }}" alt="{{ corp.name }} logo" width="50">
         <h2>
-            <a href="{{ corp.url }}"> {{ corp.name }}</a>
+            <a href="{{ corp.url | relative_url }}"> {{ corp.name }}</a>
         </h2>
     </li>
     {% endfor %}
@@ -59,7 +59,7 @@ layout: default
     <li>
         <img src="{{ gang.logo_url | relative_url }}" alt="{{ gang.name }} logo" width="50">
         <h2>
-            <a href="{{ gang.url }}"> {{ gang.name }}</a>
+            <a href="{{ gang.url | relative_url }}"> {{ gang.name }}</a>
         </h2>
     </li>
     {% endfor %}
@@ -72,7 +72,7 @@ layout: default
     <li>
         <img src="{{ crew.logo_url | relative_url }}" alt="{{ crew.name }} logo" width="50">
         <h2>
-            <a href="{{ crew.url }}"> {{ crew.name }}</a>
+            <a href="{{ crew.url | relative_url }}"> {{ crew.name }}</a>
         </h2>
     </li>
     {% endfor %}
