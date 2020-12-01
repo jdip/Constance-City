@@ -34,6 +34,12 @@ url: "https://jdip.github.io" # the base hostname & protocol for your site, e.g.
 twitter_username: buckeymonkey
 github_username:  jdip
 
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
+
 collections_dir: _collections
 collections:
   organizations:
