@@ -1,7 +1,7 @@
 ---
 type: municipality
 name: Franklin
-location: Constance City
+location: South Side
 ---
 
 Franklin

@@ -1,7 +1,7 @@
 ---
 type: municipality
 name: Springfield
-location: Constance City
+location: West Side
 ---
 
 Springfield

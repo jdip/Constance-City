@@ -1,7 +1,7 @@
 ---
 type: municipality
 name: Constance Island
-location: Constance City
+location: North Side
 ---
 
 Constance Island

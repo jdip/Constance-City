@@ -1,5 +1,5 @@
 ---
-type: building
+type: poi
 location: North Burnsey
 name: The Jungle
 ---
