@@ -3,6 +3,10 @@ layout: default
 ---
 <article>
     <h1>{{ page.name }}</h1>
+    {% if page.location != blank %}
+    Located in: <a href="{{ '/locations/' | relative_url }}{{ page.location | slugify: raw }}">{{ page.location }}</a>
+    {% endif %}
+
     {{ content }}
 
     {% if page.type == 'municipality' %}
