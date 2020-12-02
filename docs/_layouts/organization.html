@@ -5,4 +5,6 @@ layout: default
     <img src="{{ page.logo_url | relative_url }}" alt="{{ page.name }} logo" width="200">
     <h1>{{ page.name }}</h1>
     {{ content }}
+    <h2>Notable People</h2>
+    {% include person_list.html organization=page.name %}
 </article>

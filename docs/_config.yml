@@ -42,7 +42,9 @@ collections:
   locations:
     output: true
     permalink: /:collection/:path/
-
+  people:
+    output: true
+    permalink: /:collection/:path/
 
 defaults:
   - scope:
@@ -59,6 +61,12 @@ defaults:
       type: organizations
     values:
       layout: organization
+
+  - scope:
+      path: _people
+      type: people
+    values:
+      layout: person
 
 # Exclude from processing.
 # The following items will not be processed, by default.
