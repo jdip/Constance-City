@@ -11,7 +11,7 @@ layout: default
         {% assign buildings = site.locations | where: "type", "building" | where: "municipality", page.name %}
         {% for building in buildings %}
         <li>
-            <a href="{{ building.url }}"> {{ building.name }}</a>
+            <a href="{{ building.url | relative_url }}"> {{ building.name }}</a>
         </li>
         {% endfor %}
     </ul>
