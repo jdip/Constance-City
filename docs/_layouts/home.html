@@ -12,99 +12,44 @@ layout: default
         </h2>
         {% assign list_types = "area|municipality|poi|poi|poi" | split: "|" %}
         {% include location_list.html level=0 types=list_types name=region.name %}
+    </li>
+    {% endfor %}
+</ul>
 
-        <!--<ul>
-            {% assign areas = site.locations | where: "type", "area" | where: "location", region.name %}
-            {% for area in areas %}
+
+<h1>Organizations</h1>
+<ul>
+    <li>
+        <h2>Corps</h2>
+        <ul>
+            {% assign corps = site.organizations | where: "type", "corp" %}
+            {% for corp in corps %}
             <li>
-                <h2>
-                    <a href="{{ area.url | relative_url }}"> {{ area.name }}</a>
-                </h2>
-                <ul>
-                    {% assign municipalities = site.locations | where: "type", "municipality" | where: "location", area.name %}
-                    {% for municipality in municipalities %}
-                    <li>
-                        <h2>
-                            <a href="{{ municipality.url | relative_url }}"> {{ municipality.name }}</a>
-                        </h2>
-                        <ul>
-                            {% assign pois = site.locations | where: "type", "poi" | where: "location", municipality.name %}
-                            {% for poi in pois %}
-                            <li>
-                                <h2>
-                                    <a href="{{ poi.url | relative_url }}"> {{ poi.name }}</a>
-                                </h2>
-                                <ul>
-                                    {% assign poi2s = site.locations | where: "type", "poi" | where: "location", poi.name %}
-                                    {% for poi2 in poi2s %}
-                                    <li>
-                                        <h2>
-                                            <a href="{{ poi2.url | relative_url }}"> {{ poi2.name }}</a>
-                                        </h2>
-                                        <ul>
-                                            {% assign poi3s = site.locations | where: "type", "poi" | where: "location", poi2.name %}
-                                            {% for poi3 in poi3s %}
-                                            <li>
-                                                <h2>
-                                                    <a href="{{ poi3.url | relative_url }}"> {{ poi3.name }}</a>
-                                                </h2>
-
-                                            </li>
-                                            {% endfor %}
-                                        </ul>
-                                    </li>
-                                    {% endfor %}
-                                </ul>
-                            </li>
-                            {% endfor %}
-                        </ul>
-                    </li>
-                    {% endfor %}
-                </ul>
+                <a href="{{ corp.url | relative_url }}"> {{ corp.name }}</a>
             </li>
             {% endfor %}
-        </ul>-->
+        </ul>
     </li>
-    {% endfor %}
-</ul>
-
-
-<h1>Corps</h1>
-<ul>
-    {% assign corps = site.organizations | where: "type", "corp" %}
-    {% for corp in corps %}
     <li>
-        <img src="{{ corp.logo_url | relative_url }}" alt="{{ corp.name }} logo" width="50">
-        <h2>
-            <a href="{{ corp.url | relative_url }}"> {{ corp.name }}</a>
-        </h2>
+        <h2>Gangs</h2>
+        <ul>
+            {% assign gangs = site.organizations | where: "type", "gang" %}
+            {% for gang in gangs %}
+            <li>
+                <a href="{{ gang.url | relative_url }}"> {{ gang.name }}</a>
+            </li>
+            {% endfor %}
+        </ul>
     </li>
-    {% endfor %}
-</ul>
-
-<h1>Gangs</h1>
-<ul>
-    {% assign gangs = site.organizations | where: "type", "gang" %}
-    {% for gang in gangs %}
     <li>
-        <img src="{{ gang.logo_url | relative_url }}" alt="{{ gang.name }} logo" width="50">
-        <h2>
-            <a href="{{ gang.url | relative_url }}"> {{ gang.name }}</a>
-        </h2>
+        <h2>Crews</h2>
+        <ul>
+            {% assign crews = site.organizations | where: "type", "crew" %}
+            {% for crew in crews %}
+            <li>
+                <a href="{{ crew.url | relative_url }}"> {{ crew.name }}</a>
+            </li>
+            {% endfor %}
+            </ul>
     </li>
-    {% endfor %}
 </ul>
-
-<h1>Crews</h1>
-<ul>
-    {% assign crews = site.organizations | where: "type", "crew" %}
-    {% for crew in crews %}
-    <li>
-        <img src="{{ crew.logo_url | relative_url }}" alt="{{ crew.name }} logo" width="50">
-        <h2>
-            <a href="{{ crew.url | relative_url }}"> {{ crew.name }}</a>
-        </h2>
-    </li>
-    {% endfor %}
-</ul>
-
