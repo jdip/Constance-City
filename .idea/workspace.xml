@@ -2,85 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f050d479-9c3b-4c2d-bac8-6b0f46a9d2ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/assets/scripts/nightmarket.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/night-market-generator.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vagrantfile" beforeDir="false" afterPath="$PROJECT_DIR$/Vagrantfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Gemfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Gemfile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_data/navigation.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_gangs/lemon-stealing-whores.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_includes/navigation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_layouts/default.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_sass/main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/about.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/css/styles.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-        <option value="JavaScript File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1l4CVS39BIDx02Rdu7jP95KYprI" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
-    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\jdipaolo\Documents\GitHub\Constance-City\docs" />
-      <recent name="C:\Users\jdipaolo\Documents\GitHub\Constance-City\docs\assets\img" />
-      <recent name="C:\Users\jdipaolo\Documents\GitHub\Constance-City\docs\_layouts" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\jdipaolo\Documents\GitHub\Constance-City\docs\assets\img" />
-      <recent name="C:\Users\jdipaolo\Documents\GitHub\Constance-City\docs\assets\icons" />
-      <recent name="C:\Users\jdipaolo\Documents\GitHub\Constance-City\docs\assets\fonts" />
-      <recent name="C:\Users\jdipaolo\Documents\GitHub\Constance-City\docs\_sass" />
       <recent name="C:\Users\jdipaolo\Documents\GitHub\Constance-City" />
     </key>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="f050d479-9c3b-4c2d-bac8-6b0f46a9d2ff" name="Default Changelist" comment="" />
-      <created>1606847000976</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1606847000976</updated>
-      <workItem from="1606847002038" duration="61204000" />
-      <workItem from="1607529324860" duration="7938000" />
-      <workItem from="1607546105039" duration="1714000" />
-      <workItem from="1607960664912" duration="21000" />
-    </task>
     <servers />
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="1036" y="502" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606861588150">
+    <state x="1036" y="502" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606770098374">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1036" y="502" key="#com.intellij.fileTypes.FileTypeChooser/-2560.0.2560.1400/2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1606861588150" />
-    <state x="781" y="345" key="SettingsEditor" timestamp="1606850718467">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="781" y="345" key="SettingsEditor/-2560.0.2560.1400/2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1606850718467" />
-    <state x="936" y="330" key="run.anything.popup" timestamp="1607536384881">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="936" y="330" key="run.anything.popup/0.0.2560.1400/-2560.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1607536384881" />
+    <state x="1036" y="502" key="#com.intellij.fileTypes.FileTypeChooser/-2560.0.2560.1400/2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1606770098374" />
   </component>
 </project>
