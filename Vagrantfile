@@ -16,7 +16,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.synced_folder ".","/vagrant", :owner => "vagrant", :group => "www-data"
 
   config.vm.provider :virtualbox do |vb|
-    vb.name = "constance-city"
+    vb.name = "red-repo"
     vb.customize ["modifyvm", :id, "--vram", "16"]
     vb.memory = 8192
     vb.cpus = 4
