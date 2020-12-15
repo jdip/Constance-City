@@ -5,3 +5,5 @@ _site
 vendor
 .idea/workspace.xml
 .vagrant
+.idea/workspace.xml
+docs/Gemfile.lock
