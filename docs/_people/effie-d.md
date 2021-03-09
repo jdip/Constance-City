@@ -17,4 +17,4 @@ Effie does crop-dusting gigs as she can find them. She believes in whole non-org
 
 [Muldahano] is a farmer Effie used to crop dust for. Bought a ground rig to spray his own crops, Effie snuck in and dusted in the morning before he could use it for the first time and sent him a bill.
 
-[Mr Bigglesworth] is her pet rat who has his own goggles and rides in a custom pocket on Effie's jacket.
+[Chuck Yeager] is her pet rat who has his own goggles and rides in a custom pocket on Effie's jacket.

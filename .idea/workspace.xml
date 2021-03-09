@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f050d479-9c3b-4c2d-bac8-6b0f46a9d2ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/_organizations/autona-nation.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/_people/Jaz.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/_people/effie-d.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/_people/konkeo.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/scripts/nightmarket.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/night-market-generator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/_people/Blondica-Felluci.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/_people/crescent-mcclanahan.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/_people/smokey-da-teddy-bear.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/_people/two-dollar-frank.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/_people/yoshi-nakamura.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_people/yoshi-nakamura.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_organizations/hetfields.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_organizations/hetfields.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_people/effie-d.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_people/effie-d.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +69,14 @@
       <workItem from="1607961443677" duration="174000" />
       <workItem from="1607992637115" duration="618000" />
       <workItem from="1607996163111" duration="9934000" />
+      <workItem from="1608048029926" duration="49000" />
+      <workItem from="1608123248274" duration="32000" />
+      <workItem from="1608145686118" duration="4229000" />
+      <workItem from="1611023361940" duration="2412000" />
+      <workItem from="1611629855380" duration="1903000" />
+      <workItem from="1612231509621" duration="4022000" />
+      <workItem from="1612837435335" duration="3476000" />
+      <workItem from="1614048085615" duration="1229000" />
     </task>
     <servers />
   </component>
